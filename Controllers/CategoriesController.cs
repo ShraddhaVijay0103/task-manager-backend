@@ -50,11 +50,7 @@ namespace MyWebApi.Controllers
                 CategoryId = category.Id
             });
         }
-        [HttpGet]
-        public string Get()
-        {
-            return "API is working!";
-        }
+
     }
 
 

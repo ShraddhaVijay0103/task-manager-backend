@@ -68,5 +68,14 @@ namespace MyWebApi.Controllers
                 Expiration = tokenDescriptor.Expires!.Value
             });
         }
+
+        [HttpGet]
+        public string Get()
+        {
+            return "API is working!";
+        }
+
+
+
     }
 }
