@@ -23,6 +23,7 @@ namespace MyWebApi.Controllers
         // =========================
         [HttpPost]
         public async Task<IActionResult> CreateCategory(
+   
             [FromBody] CreateCategoryRequest request)
         {
             // 1. Get UserId from JWT
@@ -49,5 +50,15 @@ namespace MyWebApi.Controllers
                 CategoryId = category.Id
             });
         }
+        [HttpGet]
+        public string Get()
+        {
+            return "API is working!";
+        }
     }
+
+
+
+
+
 }
