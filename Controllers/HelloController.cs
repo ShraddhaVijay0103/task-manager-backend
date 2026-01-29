@@ -7,10 +7,10 @@ namespace MyWebApi.Controllers
     [Route("api/[controller]")]
     public class HelloController : ControllerBase
     {
-        [HttpGet]
-        public string Get()
-        {
-            return "API is working!";
-        }
+        //[HttpGet]
+        //public string Get()
+        //{
+        //    return "API is working!";
+        //}
     }
 }
